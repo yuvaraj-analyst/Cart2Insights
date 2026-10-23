@@ -36,9 +36,9 @@ def load_data():
     }
 
     data = {
-        name: pd.read_csv(DATA_PATH / filename)
-        for name, filename in files.items()
-    }
+    name: pd.read_csv(data_path / filename)
+    for name, filename in files.items()
+}
 
     data["orders"]["order_purchase_timestamp"] = pd.to_datetime(
         data["orders"]["order_purchase_timestamp"],
