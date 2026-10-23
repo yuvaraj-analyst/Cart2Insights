@@ -20,7 +20,7 @@ st.caption("E-commerce sales, orders, products and customer reviews")
 # -------------------------------
 # 2. Load cleaned datasets
 # -------------------------------
-DATA_PATH = Path(__file__).resolve().parent / "Data" / "cleaned"
+data_path = Path(__file__).resolve().parent / "data" / "cleaned"
 
 
 @st.cache_data
