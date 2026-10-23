@@ -64,7 +64,7 @@ except Exception as e:
     st.error(f"Unable to load the datasets: {e}")
     st.info(
         "Check that the CSV files are inside "
-        "Cart2Insights/Data/cleaned."
+        "Cart2Insights/data/cleaned."
     )
     st.stop()
 
